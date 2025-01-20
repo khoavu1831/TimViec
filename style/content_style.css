@@ -42,7 +42,7 @@
     min-height: 400px;
     border-radius: 8px;
     box-sizing: border-box;
-    padding: 10px;
+    padding: 32px;
     background-color: white;
     border: 2px solid rgba(0, 0, 0, 0.1);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -109,4 +109,27 @@
 .sec1:hover {
     background-color: orangered;
     color: aliceblue;
+}
+
+@media (max-width: 600px) {
+    .content {
+        margin: 0;
+    }
+
+    .sec1 {
+        margin: 0 24px;
+    }
+
+    .news-newest > h1,
+    .news-most > h1,
+    .news-filter > h1 {
+        margin: 24px 0 16px 24px;
+        width: 100%;
+        font-weight: 500;
+        font-family: "Lexend Giga", serif;
+        font-size: 26px;
+        background-color: #003366;
+        width: 74%;
+        color: aliceblue;
+    }
 }

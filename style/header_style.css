@@ -29,7 +29,7 @@ body {
     margin-right: 24px;
 }
 
-.logo-header i{
+.logo-header i {
     font-size: 40px;
     margin: 6px 0;
     cursor: pointer;
@@ -61,6 +61,7 @@ body {
     padding: 0 24px;
     line-height: 52px;
     transition: background-color 0.3s, color 0.3s;
+    justify-content: center;
 }
 
 .main-nav > li:hover > a{ 
@@ -113,7 +114,7 @@ body {
 }
 
 .input-finding input {
-    min-width: 36rem;
+    min-width: 12rem;
     font-size: 16px;
     margin: 0 0 24px 0;
     font-weight: 600;
@@ -145,3 +146,66 @@ body {
     opacity: 80%;
 }
 
+@media (max-width: 600px) {
+    .container-heading {
+        margin-left: 0; 
+    }
+
+    .heading-nav {
+        height: 40px;
+    }
+
+    .nav-header a {
+        font-size: 16px; 
+    }
+
+    .input-finding input {
+        width: 80%; 
+    }
+
+    .main-nav > li a {
+        padding: 24px 10px;
+    }
+
+    .logo-header i {
+        margin-left: 24px;
+        margin-top: 24px;
+    }
+
+    .sub-nav {
+        display: none;
+        position: absolute;
+        margin-top: 36px;
+        top: 100%;
+        left: 0;
+    }
+    
+    .sub-nav li a {
+        line-height: 12px;
+    }
+
+    .finding-nav .title-finding {
+        max-width: 100%;
+        margin: 60px 16px 16px 24px;
+    }
+
+    .finding-nav .title-finding span {
+        color: orangered;
+    }
+
+    .input-finding {
+        margin-top: 12px;
+        margin-left: 24px;
+        margin-bottom: 0;
+    }
+
+    .input-finding input {
+        width: 14rem;
+    }
+
+    .input-finding button {
+        margin: 0;
+        width: 120px;
+        padding: 12px;
+    }
+}
