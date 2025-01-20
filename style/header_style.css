@@ -153,6 +153,7 @@ body {
 
     .heading-nav {
         height: 40px;
+
     }
 
     .nav-header a {
@@ -209,9 +210,15 @@ body {
     }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 400px) {
     .nav-header a {
         font-size: 14px; 
+    }
+
+    .main-nav > li > a {
+        padding: 24px 4px;
+        line-height: 0;
+        margin-top: 24px;
     }
 
     .finding-nav .title-finding {
