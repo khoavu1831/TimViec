@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: white;
+    background: rgba(248, 242, 242, 0.5);
 }
 
 .header {
@@ -78,7 +78,7 @@ body {
 
 .sub-nav li {
     min-width: 240px;
-    background-color: black;
+    background-color: rgb(62, 91, 119);
     color: aliceblue;
     transition: background-color 0.3s, color 0.3s;
     z-index: 10;
