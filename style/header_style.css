@@ -127,6 +127,7 @@ body {
     color: aliceblue;
     transition: background-color 0.3s, color 0.3s;
     font-weight: 600;
+    margin-right: 16%;
 }
 
 .input-finding button i {
