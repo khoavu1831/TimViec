@@ -124,12 +124,30 @@
     .news-most > h1,
     .news-filter > h1 {
         margin: 24px 0 16px 24px;
-        width: 100%;
-        font-weight: 500;
-        font-family: "Lexend Giga", serif;
-        font-size: 26px;
-        background-color: #003366;
-        width: 74%;
-        color: aliceblue;
+    }
+}
+
+@media (max-width: 380px) {
+    .content {
+        margin: 0;
+    }
+
+    .sec1 {
+        margin: 0 24px;
+        width: 80%;
+    }
+
+    .news-newest {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .news-newest > h1,
+    .news-most > h1,
+    .news-filter > h1 {
+        margin: 24px 0 16px 24px;
+        width: 70%;
+        font-size: 22px;
     }
 }

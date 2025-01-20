@@ -146,7 +146,7 @@ body {
     opacity: 80%;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 730px) {
     .container-heading {
         margin-left: 0; 
     }
@@ -196,7 +196,6 @@ body {
     .input-finding {
         margin-top: 12px;
         margin-left: 24px;
-        margin-bottom: 0;
     }
 
     .input-finding input {
@@ -207,5 +206,20 @@ body {
         margin: 0;
         width: 120px;
         padding: 12px;
+    }
+}
+
+@media (max-width: 380px) {
+    .nav-header a {
+        font-size: 14px; 
+    }
+
+    .finding-nav .title-finding {
+        font-size: 18px;
+    }
+
+    .input-finding input {
+        width: 12rem;
+        padding: 12px 8px;
     }
 }
