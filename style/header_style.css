@@ -164,7 +164,7 @@ body {
     opacity: 80%;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 760px) {
     .container-heading {
         margin-left: 0; 
         height: 52px;
@@ -183,7 +183,7 @@ body {
     }
 
     .main-nav > li a {
-        padding: 0 10px;
+        padding: 0 12px;
     }
 
     .logo-header {
@@ -225,18 +225,11 @@ body {
 
     .input-finding input {
         width: 14rem;
-    }s
+    }
 
     .input-finding button {
         margin: 0;
         width: 120px;
         padding: 12px;
-    }
-}
-
-@media (max-width: 374px) {
-    .main-nav > li a {
-        padding: 0 4px;
-        font-size: 12px;
     }
 }
