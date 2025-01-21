@@ -183,8 +183,7 @@ body {
     }
 
     .main-nav > li a {
-        padding: 0px;
-        margin-left: 2px;
+        padding: 0 10px;
     }
 
     .logo-header {
@@ -226,11 +225,18 @@ body {
 
     .input-finding input {
         width: 14rem;
-    }
+    }s
 
     .input-finding button {
         margin: 0;
         width: 120px;
         padding: 12px;
+    }
+}
+
+@media (max-width: 374px) {
+    .main-nav > li a {
+        padding: 0 4px;
+        font-size: 12px;
     }
 }
