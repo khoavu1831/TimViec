@@ -1,0 +1,142 @@
+.footer {
+    background: linear-gradient(to right, #003366 20%, #ff6600 100%);
+}
+
+.container-footer {
+    margin: 0 16%;
+    padding: 24px 24px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.send-email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.send-email > .logo-footer {
+    justify-content:right
+}
+
+.send-email input {
+    font-weight: 600;
+}
+
+.send-email button {
+    background-color: rgb(227, 39, 39);   
+    color: aliceblue;
+    font-weight: 600;
+    margin-top: 12px;
+}
+
+.send-email button:hover {
+    box-shadow: #003366 10px 8px;
+    opacity: 80%;
+    cursor: pointer;
+}
+
+.send-email input,
+.send-email button {
+    border-radius: 10px;
+    padding: 12px 20px;
+    width: 80%;
+    font-size: 20px;
+}
+
+.send-email p {
+    width: 80%;
+    text-align: justify;
+    color: aliceblue;
+    margin-top: 8px;
+    letter-spacing: 1px;
+    line-height: 22px;
+}
+
+.send-email a {
+    color: aliceblue;
+}
+
+.logo-footer {
+    padding: 0 0 4px 8px;
+    font-size: 64px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-footer > .fa-stumbleupon {
+    color: #ff6600;
+}
+
+.info { 
+    font-family: "Lexend Giga", serif;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    width: 225px;
+}
+
+.info h4 {
+    color: aliceblue;
+    width: 100%;
+    font-size: 24px;
+}
+
+.logo-info {
+    padding: 12px 0;
+    color: aliceblue;
+    font-size: 32px;
+}
+
+.logo-info a {
+    color: aliceblue;
+}
+
+.fa-facebook:hover {
+    color: #1577cc;
+    background-color: aliceblue;
+    border-radius: 20%;
+}
+
+.fa-youtube:hover {
+    color: red;
+    background-color: aliceblue;
+    border-radius: 20%;
+}
+
+.fa-linkedin:hover {
+    color: #1577cc;
+    background-color: aliceblue;
+    border-radius: 20%;
+    padding: 2px;
+}
+
+@media (max-width: 900px) {
+    .container-footer {
+        flex-direction: column;
+    }
+
+    .logo-footer {
+        padding: 0 0 4px 60px;
+    }
+}
+
+@media (max-width: 425px) {
+    .logo-footer {
+        padding: 0 0 0 37px;
+    }
+
+    .container-footer {
+        margin: 0 16px 0 16px;
+    }
+
+    .send-email input,
+    .send-email button {
+        padding: 10px 16px;
+        font-size: 16px;
+    }
+
+    .send-email p {
+        font-size: 12px;
+    }
+}

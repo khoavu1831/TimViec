@@ -24,7 +24,6 @@
     font-family: "Lexend Giga", serif;
     font-size: 26px;
     background-color: #003366;
-    width: 40%;
     color: aliceblue;
 }
 
@@ -124,6 +123,7 @@
     .news-most > h1,
     .news-filter > h1 {
         margin: 24px 0 16px 24px;
+        width: 80%;
     }
 }
 
@@ -147,7 +147,6 @@
     .news-most > h1,
     .news-filter > h1 {
         margin: 24px 0 16px 24px;
-        width: 70%;
-        font-size: 22px;
+        font-size: 20px;
     }
 }
