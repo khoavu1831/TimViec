@@ -183,7 +183,8 @@ body {
     }
 
     .main-nav > li a {
-        padding: 0 4px;
+        padding: 0px;
+        margin-left: 2px;
     }
 
     .logo-header {
